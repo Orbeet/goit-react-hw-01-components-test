@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  border: 1px solid rgb(152, 159, 167);
+  padding: 5px;
+  margin-top: 10px;
+}
+.avatar {
+  padding-left: 10px;
+}
+.name {
+  padding-left: 10px;
+}
+.status {
+  background-color: red;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.isActive {
+  composes: status;
+  background-color: green;
+}

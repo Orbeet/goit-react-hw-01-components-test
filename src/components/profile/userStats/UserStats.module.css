@@ -1,0 +1,30 @@
+.stats {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: rgb(218, 214, 214);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid rgb(182, 192, 201);
+  width: 85px;
+  border-radius: 0 0 5px 5px;
+}
+.label {
+  font-size: 12px;
+  color: grey;
+}
+.quantity {
+  font-size: 13px;
+  font-weight: bold;
+}
